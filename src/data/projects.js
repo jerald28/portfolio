@@ -154,7 +154,7 @@ export const projects = [
   },
   {
     name: "Barangay Management System",
-    role: "UI/UX DESIGN",
+    role: "DESIGN + DEV",
     stack: "Vue, Laravel, Tailwind",
     tags: ["Vue", "Laravel", "Figma", "Tailwind"],
     hero: barangayHero,
@@ -181,6 +181,7 @@ export const projects = [
       "mobile_home.png",
     ],
     shots: [barangay01, barangay02, barangay03, barangay04],
+    sideBySide: [2, 3],
   },
 ];
 

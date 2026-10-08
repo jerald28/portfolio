@@ -79,7 +79,12 @@ export default function ProjectModal({ project, onClose }) {
                   <h3>{"Screenshots"}</h3>
                   <div className="shots">
                     {project.shots.map((src, i) => (
-                      <figure key={i}>
+                      <figure
+                        key={i}
+                        className={
+                          project.sideBySide?.includes(i) ? "shot-pair" : ""
+                        }
+                      >
                         <figcaption>
                           <i />
                           <i />

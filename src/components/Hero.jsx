@@ -1,4 +1,5 @@
 import portrait from "../assets/jerald.webp";
+import cv from "../assets/jerald-esguerra-cv.pdf";
 
 export default function Hero() {
   return (
@@ -37,6 +38,14 @@ export default function Hero() {
             </a>{" "}
             <a className="btn" href="#contact">
               Say hello
+            </a>{" "}
+            <a
+              className="btn"
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download CV
             </a>
           </p>
         </div>

@@ -331,6 +331,29 @@ body.rc .trail{display:block}
 .feats{margin:0 0 6px;padding:0;list-style:none}
 .feats li::before{content:"▪ ";color:var(--pink)}
 
+.shots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* Every screenshot is full width by default... */
+.shots > figure {
+  grid-column: 1 / -1;
+}
+
+/* ...except paired ones, which share a row */
+.shots > figure.shot-pair {
+  grid-column: span 1;
+}
+
+/* Optional: stack the pair again on very narrow screens */
+@media (max-width: 520px) {
+  .shots > figure.shot-pair {
+    grid-column: 1 / -1;
+  }
+}
+
 /* Hero image bleeds edge-to-edge inside the modal body */
 .mb2 .mhero{
   margin:-18px -18px 24px;
