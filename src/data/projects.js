@@ -3,6 +3,7 @@ import elvionHero from "../assets/projects/elvion-hero.jpg";
 import petHero from "../assets/projects/pet-hero.jpg";
 import hrHero from "../assets/projects/hr-hero.jpg";
 import kidoHero from "../assets/projects/kido-hero.jpg";
+import barangayHero from "../assets/projects/barangay-hero.jpg";
 
 // Detail shots (for the modal's "// screens" section)
 import elvion01 from "../assets/projects/elvion-01.png";
@@ -24,6 +25,11 @@ import kido02 from "../assets/projects/kido-02.png";
 import kido03 from "../assets/projects/kido-03.png";
 import kido04 from "../assets/projects/kido-04.png";
 import kido05 from "../assets/projects/kido-05.png";
+
+import barangay01 from "../assets/projects/barangay-01.png";
+import barangay02 from "../assets/projects/barangay-02.png";
+import barangay03 from "../assets/projects/barangay-03.png";
+import barangay04 from "../assets/projects/barangay-04.png";
 
 export const projects = [
   {
@@ -123,8 +129,8 @@ export const projects = [
     heroAlt:
       "Children training and booking platform shown on laptop, tablet and phone",
     desc: [
-      "Kido Play (Kidopass) is a booking platform where parents can find training and activities for their children and enroll them in a few clicks. It brings sports, arts, music and camps into one place.",
-      "Parents browse activities and filter by location, age, category, sub category and date, then view a class schedule and book. Bookings are paid with Kidopass credits: families pick a credit package or redeem a gift card, then use the credits to book activities. Gift cards come in set credit amounts and can be shared with other families.",
+      "Kido Play is a booking platform where parents can find training and activities for their children and enroll them in a few clicks. It brings sports, arts, music and camps into one place.",
+      "Parents browse activities and filter by location, age, category, sub category and date, then view a class schedule and book. Bookings are paid with Kido Play credits: families pick a credit package or redeem a gift card, then use the credits to book activities. Gift cards come in set credit amounts and can be shared with other families.",
       "Each parent has an account area with a view of classes happening today, booking records with ongoing, completed and cancelled statuses, credit balance and history, profiles for their kids, and profile and password settings. A bright, playful look in red, blue, yellow and teal keeps it friendly for families.",
     ],
     feats: [
@@ -145,6 +151,36 @@ export const projects = [
       "gift_card.png",
     ],
     shots: [kido01, kido02, kido03, kido04, kido05],
+  },
+  {
+    name: "Barangay Management System",
+    role: "UI/UX DESIGN",
+    stack: "Vue, Laravel, Tailwind",
+    tags: ["Vue", "Laravel", "Figma", "Tailwind"],
+    hero: barangayHero,
+    heroAlt: "Barangay Management System shown on laptop, tablet and phone",
+    desc: [
+      "The Barangay Management System helps a barangay manage its residents, businesses, documents and cases in one place, and gives residents a mobile app to request documents, such as a barangay certificate, without visiting the barangay hall.",
+      "On the web side, barangay staff get a dashboard with total population, households and families, special sectors such as senior citizens, persons with disability, solo parents and 4Ps beneficiaries, peace and order cases, businesses and permits, collections by document type, programs, announcements and admin users. A data section holds resident, family and household records that can be searched, filtered, imported and turned into reports. The menu also covers services, documents, disaster risk reduction (DRRM) and admin settings.",
+      "The resident mobile app has a simple sign in, a home screen with announcements and the latest news, and a request for documents shortcut for items like clearances and certificates. A bottom bar gives quick access to news, transactions and the resident profile.",
+    ],
+    feats: [
+      "Dashboard with population, households and special sectors",
+      "Resident, family and household records with search and import",
+      "Reports and export",
+      "Business permits and document collections",
+      "Peace and order and incident tracking",
+      "Announcements, news and programs",
+      "Mobile app for residents to request barangay documents",
+      "Roles for barangay admins and staff",
+    ],
+    caps: [
+      "dashboard.png",
+      "resident_data.png",
+      "mobile_login.png",
+      "mobile_home.png",
+    ],
+    shots: [barangay01, barangay02, barangay03, barangay04],
   },
 ];
 

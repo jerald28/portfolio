@@ -270,7 +270,6 @@ body.rc .trail{display:block}
 
 /* ---------- TAGS — FINAL OVERRIDE ---------- */
 #feat .card .tags{
-  margin-top:auto;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;

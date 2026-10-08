@@ -31,6 +31,7 @@ export default function Contact() {
             className="btn"
             target="_blank"
             href="https://www.linkedin.com/in/jerald-esguerra-a35a39294/?isSelfProfile=true"
+            style={{ marginTop: "10px" }}
           >
             LinkedIn
           </a>
